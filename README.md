@@ -45,7 +45,11 @@
 ## 快速开始
 
 ```bash
-pip install requests pillow pyyaml
+# 安装依赖 (easyocr/requests/PyYAML)
+python -m pip install -r requirements.txt
+
+# 可选: 纯 API 模式不需要 easyocr, 可只装轻量依赖
+python -m pip install requests pyyaml
 
 cp config.example.yaml config.yaml
 # 编辑 config.yaml: itihey API Key + DashScope Key
