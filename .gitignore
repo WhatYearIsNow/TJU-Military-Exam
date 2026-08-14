@@ -1,0 +1,44 @@
+# 工作流/ 是独立 Git 仓库,不在此仓库嵌套提交
+工作流/
+
+# 个人试卷图片(不入库)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+temp_bug.jpg
+
+# 运行产物与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.mypy_cache/
+cache.db
+*.log
+_ocr*.json
+_parsed*.json
+_results*.json
+
+# 密钥与本地配置(如有)
+.env
+.env.*
+!.env.example
+config.yaml
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.obsidian/workspace*.json
+.trash/
+
+# 工具状态
+.claude/
+.codex/
