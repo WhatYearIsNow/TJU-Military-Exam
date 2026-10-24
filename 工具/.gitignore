@@ -1,0 +1,67 @@
+# 军理搜题工作流 — Git 忽略规则
+
+# 含 Key 文件（本地用，不上传）
+CLAUDE.md
+config.yaml
+vision.js
+
+# 缓存数据库
+cache.db
+
+# 临时文件目录
+temp/
+
+# 日志
+error.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OCR 临时结果
+_ocr_*.json
+_results_*.json
+_new_qs.json
+_retry_result.json
+*_bank*.txt
+_answer_bank*.txt
+_bank_v*.txt
+_tb_*.txt
+_test2_v*.txt
+
+# 临时标记文件
+tmp_*.txt
+tmp_*.json
+tmp_p*.txt
+
+# API Key（防止泄露）
+config.yaml
+
+# 测试数据（含试卷图片，体积大）
+测试1/
+测试2/
+测试3/
+测试4/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# 答案输出
+*答案.md
+
+# Word 临时文件
+~$*.doc
+
+# Obsidian
+.obsidian/workspace*.json
+.trash/
+
+# Claude
+.claude/
+test_temp_cache.db
